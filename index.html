@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Planner</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Smart Daily Planner</h1>
+
+<div class="box">
+
+<input id="taskInput" placeholder="Enter task">
+
+<select id="priority">
+<option value="low">Low</option>
+<option value="medium">Medium</option>
+<option value="high">High</option>
+</select>
+
+<br><br>
+
+Start <input type="time" id="start">
+End <input type="time" id="end">
+
+<br><br>
+
+<button onclick="addTask()">Add Task</button>
+
+<br><br>
+
+<button onclick="openSchedule()">Show My Schedule</button>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
